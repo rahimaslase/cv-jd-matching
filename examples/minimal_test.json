@@ -1,0 +1,9 @@
+{
+  "cv_data": {
+    "skills": ["Python", "JavaScript", "React"]
+  },
+  "job_description": {
+    "title": "Software Developer",
+    "description": "Looking for a developer with Python and JavaScript skills."
+  }
+}

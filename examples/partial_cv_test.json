@@ -1,0 +1,23 @@
+{
+  "cv_data": {
+    "personal_info": {
+      "name": "Jane Doe"
+    },
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "field": "Computer Science"
+      }
+    ],
+    "skills": ["Python", "SQL", "Git"]
+  },
+  "job_description": {
+    "title": "Data Analyst",
+    "description": "Looking for a data analyst with strong technical skills.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "Python programming skills",
+      "SQL knowledge"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "cv_data": {
+    "personal_info": {
+      "name": "Alex Smith",
+      "email": "alex.smith@email.com",
+      "phone": "+1-555-0123",
+      "location": "San Francisco, CA"
+    },
+    "education": [
+      {
+        "degree": "Bachelor of Science",
+        "field": "Computer Science",
+        "institution": "UC Berkeley",
+        "year": "2020",
+        "gpa": "3.7"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer",
+        "company": "TechStart Inc.",
+        "duration": "2020 - Present",
+        "description": "Developed web applications using React, Node.js, and Python. Built RESTful APIs and worked with databases like PostgreSQL and MongoDB."
+      }
+    ],
+    "skills": [
+      "Python", "JavaScript", "React", "Node.js", "PostgreSQL", 
+      "MongoDB", "Git", "Docker", "AWS", "RESTful APIs"
+    ],
+    "projects": [
+      {
+        "name": "E-commerce Platform",
+        "description": "Built a full-stack e-commerce platform with React frontend and Node.js backend",
+        "technologies": ["React", "Node.js", "PostgreSQL", "AWS"]
+      }
+    ]
+  },
+  "job_description": {
+    "title": "Full Stack Developer",
+    "company": "InnovateCorp",
+    "location": "Remote",
+    "employment_type": "Full-time",
+    "description": "We are looking for a Full Stack Developer to join our team. You will be responsible for developing web applications, building APIs, and working with databases.",
+    "requirements": [
+      "Bachelor's degree in Computer Science or related field",
+      "2+ years of experience in web development",
+      "Strong knowledge of JavaScript and Python",
+      "Experience with React and Node.js",
+      "Experience with databases (PostgreSQL, MongoDB)",
+      "Knowledge of RESTful API development"
+    ],
+    "preferred_qualifications": [
+      "Experience with cloud platforms (AWS, GCP)",
+      "Experience with Docker and containerization",
+      "Knowledge of Git version control",
+      "Experience in agile development"
+    ]
+  }
+}
