@@ -11,9 +11,8 @@ load_dotenv()
 app = FastAPI(title="CV-JD Match Score API", version="1.0.0")
 
 # Initialize OpenAI client
-api_key = os.getenv("OPENAI_API_KEY", "133807600a9242e489eb7957de05f643")
-base_url = os.getenv("OPENAI_BASE_URL", "https://api.core42.ai/v1")
-client = OpenAI(api_key=api_key, base_url=base_url)
+api_key = os.getenv("OPENAI_API_KEY", "your_api_key_here")
+client = OpenAI(api_key=api_key)
 
 class MatchRequest(BaseModel):
     job_description: str

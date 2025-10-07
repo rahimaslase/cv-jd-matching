@@ -26,7 +26,19 @@ A FastAPI application that analyzes CV-Job Description compatibility using AI.
 pip install -r requirements.txt
 ```
 
-### 2. Run the Application
+### 2. Set Environment Variables
+
+Create a `.env` file:
+```bash
+cp env.example .env
+```
+
+Edit `.env` and add your OpenAI API key:
+```env
+OPENAI_API_KEY=your_actual_api_key_here
+```
+
+### 3. Run the Application
 
 ```bash
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
